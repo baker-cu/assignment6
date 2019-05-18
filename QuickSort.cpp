@@ -1,16 +1,6 @@
 #include<iostream>
 using namespace std;
 
-void print(int *a, int n)
-{
-    int i = 0;
-    while(i < n){
-        std::cout << a[i] << ",";
-        i++;
-    }
-    std::cout << "\n";
-}
-
 void swap(int* a, int* b)
 {
     int t = *a;
